@@ -1,0 +1,48 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 980px) {
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card__foto {
+    margin-bottom: 40px;
+  }
+
+  .card__description {
+    margin-left: 0;
+  }
+
+  .card__description-name {
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .card__description {
+    align-items: center;
+  }
+
+  .card__description-rating {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .rating__box {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

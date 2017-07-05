@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='css/style.css')
+        link(rel='stylesheet', href='css/media.css')
+        title Title
+    body
+
+        .card
+            .card__foto
+                img(src='img/foto.png', alt='foto__card').card__foto-img
+                button.card__foto-button все фото
+            .card__description
+                .card__description-name.name.nick
+                    p.name__text Тихонова Светлана
+                    p.nick__text tihonovasvet
+                .card__description-rating.rating
+                    .rating__box
+                        span.rating__box-number.rating__box-number_color 550
+                        p.rating__box-text Уровень 6
+                    .rating__box
+                        span.rating__box-number 560
+                        p.rating__box-text Рейтинг
+                    .rating__box
+                        span.rating__box-number.rating__box-number_color 4
+                        p.rating__box-text Награды и достижения
+                button.card__description-button посмотреть
+
