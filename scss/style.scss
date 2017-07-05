@@ -39,23 +39,27 @@ body {
 
     &-button {
       color: #fff;
-      font-weight: 500;
       background: #7f90a2;
       border: none;
       cursor: pointer;
       border-radius: 3px;
       outline: none;
-      padding: 11px 10px;
+      padding: 9px 10px;
       margin-top: 25px;
-      min-width: 170px;
+      min-width: 174px;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: .1em;
       text-transform: uppercase;
+      line-height: 1.2;
     }
   }
 
   &__description {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left:98px;
+    margin-right: 26px;
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
@@ -69,35 +73,42 @@ body {
 
       .name__text {
         color: #002a50;
-        font-size: 18px;
+        font-size: 35px;
         font-weight: 700;
         margin-right: 70px;
+        line-height: .8;
+        letter-spacing: .05em;
       }
 
       .nick__text {
-        font-size: 16px;
+        font-size: 33px;
+        line-height: .8;
       }
     }
 
     &-rating {
       display: flex;
       flex-direction: row;
-      margin-top: 40px;
-      margin-bottom: 25px;
+      margin-top: 22px;
       width: 100%;
       justify-content: space-between;
     }
 
     &-button {
-      padding: 11px 10px;
+      padding: 9px 10px;
       background: #ffbd00;
       border: none;
       cursor: pointer;
       outline: none;
       border-radius: 3px;
       color: #fff;
+      min-width: 174px;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: .1em;
       text-transform: uppercase;
-      min-width: 170px;
+      line-height: 1.2;
+      margin-right: 38px;
     }
   }
 }
@@ -110,6 +121,25 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    position: relative;
+
+    &-little-number {
+      position: absolute;
+      background: #fff;
+      right: -18px;
+      top: 55px;
+      padding: 5px 0;
+      font-size: 21px;
+      color: #e0e6ea;
+    }
+
+    &-little-number_right {
+      right: 48px;
+    }
+
+    &_margin {
+      margin-left: 52px;
+    }
 
     &-number {
       display: flex;
@@ -118,9 +148,10 @@ body {
       width: 140px;
       height: 140px;
       border-radius: 50%;
-      border: 1px solid #ffb500;
-      font-size: 28px;
+      border: 2px solid #ffb500;
+      font-size: 40px;
       color: #003459;
+      font-weight: 400;
     }
 
     &-number_color {
@@ -129,7 +160,7 @@ body {
 
     &-text {
       margin-top: 15px;
-      font-size: 16px;
+      font-size: 24px;
     }
   }
 }
